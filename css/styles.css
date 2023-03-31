@@ -818,17 +818,14 @@ label .find {
   color: #ffffff;
 }
 
-.form-label:focus,
-.form-label:hover {
+.form-label:focus {
   border-color: #2196f3;
   fill: #2196f3;
   transition: cubic-bezier(0.4, 0, 0.2, 1);
   transition-duration: 250ms;
 }
 
-.form-styling:hover,
 .form-styling:focus,
-.form-section-comments:hover,
 .form-section-comments:focus {
   border-color: #2196f3;
   transition: cubic-bezier(0.4, 0, 0.2, 1);
