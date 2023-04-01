@@ -756,6 +756,7 @@ label .find {
   font-size: 12px;
   line-height: 1.33;
   letter-spacing: 0.03em;
+  text-align: left;
   color: var(--medium-grey);
 }
 
@@ -828,10 +829,10 @@ label .find {
 }
 
 .form-styling:focus,
-.form-svg:hover,
+.form-svg:focus,
 .form-section-comments:focus,
-.form-description input:hover,
-textarea:hover {
+.form-description input:focus,
+textarea:focus {
   border-color: var(--light-blue);
   fill: var(--light-blue);
   cursor: pointer;
