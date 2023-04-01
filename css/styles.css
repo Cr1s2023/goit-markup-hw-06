@@ -12,7 +12,7 @@
   --dark-grey: #2f303a;
 }
 
-body {
+html {
   font-family: var(--font-family);
   font-style: normal;
   font-weight: var(--font-weight);
