@@ -828,13 +828,18 @@ label .find {
   color: var(--white);
 }
 
-.form-styling:focus,
+.form-styling:focus .form-label {
+  fill: red;
+  border-color: red;
+}
+
 .form-svg:focus,
 .form-section-comments:focus,
 .form-description input:focus,
 textarea:focus {
-  border-color: var(--light-blue);
-  fill: var(--light-blue);
+  border-color: #2196f3;
+  fill: #2196f3;
+  color: #2196f3;
   cursor: pointer;
   transition: cubic-bezier(0.4, 0, 0.2, 1);
   transition-duration: 250ms;
